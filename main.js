@@ -21,3 +21,4 @@ async function buscarEndereco(cep) {
 }
 const cepEl = document.querySelector("#cep");
 cepEl.addEventListener("focusout", () => buscarEndereco(cepEl.value));
+console.log("testando git");
